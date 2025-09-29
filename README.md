@@ -4,4 +4,4 @@
 
 [Тесты](test/test_app.py)
 
-[Отчёт]()
+[Отчёт](report.pdf)
