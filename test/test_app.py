@@ -59,8 +59,8 @@ def test_zapis_add_valid(monkeypatch):
 def test_zapis_invalid_price(monkeypatch):
     massive = []
     monkeypatch.setattr("builtins.input", lambda _: "Milk abc Food")
-    result = zapis(massive)
-    assert result == []
+    with pytest.raises(ValueError):
+        zapis(massive)
 
 
 def test_deleted_remove(monkeypatch):
@@ -76,6 +76,7 @@ def test_upd_write_and_read(tmp_path):
     upd(massive, str(file_path))
     read_back = from_file_to_list(str(file_path))
     assert read_back == massive
+
 
 
 
