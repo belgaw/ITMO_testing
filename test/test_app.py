@@ -34,7 +34,6 @@ def test_cost_sort_invalid(monkeypatch):
     massive = [["Milk", "50", "Food"]]
     monkeypatch.setattr("builtins.input", lambda _: "wrong")
     result = cost_sort(massive)
-    print(True)
     assert result == []
     
 
@@ -77,6 +76,7 @@ def test_upd_write_and_read(tmp_path):
     upd(massive, str(file_path))
     read_back = from_file_to_list(str(file_path))
     assert read_back == massive
+
 
 
 
