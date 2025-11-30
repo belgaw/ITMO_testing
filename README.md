@@ -1,5 +1,5 @@
 # ITMO_testing
-##Lab1
+## Lab1
 
 [Проект](test/app.py)
 
@@ -7,7 +7,7 @@
 
 [Отчёт](report.pdf)
 
-##Lab2
+## Lab2
 
 [Проект](test/app.py)
 
@@ -15,7 +15,7 @@
 
 [Отчёт](report.pdf)
 
-##Lab3
+## Lab3
 
 [Проект](test/app.py)
 
