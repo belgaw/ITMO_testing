@@ -9,11 +9,11 @@
 
 ## Lab2
 
-[Проект](test/app.py)
+[Проект](https://github.com/nsidnev/fastapi-realworld-example-app)
 
-[Тесты](test/test_app.py)
+[Тесты](lab2/test_integration.py)
 
-[Отчёт](report.pdf)
+[Отчёт](lab2/report2.pdf)
 
 ## Lab3
 
