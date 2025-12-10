@@ -17,8 +17,8 @@
 
 ## Lab3
 
-[Проект](test/app.py)
+[Проект](https://github.com/tastejs/todomvc)
 
-[Тесты](test/test_app.py)
+[Тесты](lab3/todomvc_test.py)
 
-[Отчёт](report.pdf)
+[Отчёт](lab3/report.pdf)
