@@ -21,4 +21,4 @@
 
 [Тесты](lab3/todomvc_test.py)
 
-[Отчёт](lab3/report.pdf)
+[Отчёт](lab3/report3.pdf)
